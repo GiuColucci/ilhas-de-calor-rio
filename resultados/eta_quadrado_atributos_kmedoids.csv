@@ -1,0 +1,9 @@
+atributo,tipo_indicador,ss_between,ss_total,eta_quadrado,pct_variancia_explicada
+arborizacao_integrada,Vulnerabilidade,59696.08,78653.0,0.759,75.90%
+renda_resp_mediana,Vulnerabilidade,813544496.49,1073841552.53,0.7576,75.76%
+pct_pop_favela,Vulnerabilidade,55013.78,75377.67,0.7298,72.98%
+taxa_analfabetismo,Vulnerabilidade,209.8,405.37,0.5175,51.75%
+densidade_ajustada,Vulnerabilidade,2158650197.06,11944689760.41,0.1807,18.07%
+lst_media,Térmico (Controle),346.46,2310.94,0.1499,14.99%
+pct_pavimentacao,Vulnerabilidade,896.31,16717.82,0.0536,5.36%
+pct_sem_saneamento,Vulnerabilidade,83.76,14644.48,0.0057,0.57%
