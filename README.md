@@ -1,5 +1,7 @@
 # Ilhas de calor e vulnerabilidade socioespacial no Rio de Janeiro
 
+![Ilhas de calor e vulnerabilidade socioespacial](imagens/capa.png)
+
 Projeto em equipe da disciplina **ENG4040 (Projeto Integrado 4)**, PUC-Rio, turma 33B, professora Amanda Batista.
 Equipe **CCG, Ciência Climática em Grupo**.
 
@@ -13,6 +15,8 @@ Todos os integrantes contribuíram em todas as etapas do projeto: coleta e trata
 
 Qual é a relação espacial entre a intensidade das ilhas de calor e a vulnerabilidade socioespacial nos bairros do Rio de Janeiro?
 
+![Hipótese de sobreposição perfeita das carências contra a realidade de vulnerabilidades deslocadas no espaço](imagens/hipotese_vs_realidade.png)
+
 O calor urbano não se distribui ao acaso: concentra-se em territórios mais impermeabilizados, menos arborizados e historicamente mais pobres. O projeto cruza dados de temperatura de superfície com indicadores sociais e de infraestrutura para identificar os bairros mais expostos.
 
 ## Dados
@@ -22,6 +26,10 @@ O calor urbano não se distribui ao acaso: concentra-se em territórios mais imp
 - **Chuva:** estações do Alerta Rio, validadas com o INMET.
 
 A base final cobre os bairros do município, com indicadores socioeconômicos em 162 deles. Os dados brutos não estão neste repositório. Consulte as fontes originais.
+
+Temperatura de superfície média por bairro (Landsat 8/9): o calor se concentra no subúrbio denso da Zona Norte, e o litoral e as áreas de maciço ficam mais frios.
+
+![Mapa da temperatura de superfície por bairro do Rio de Janeiro](imagens/mapa_temperatura_superficie.png)
 
 ## Método
 
@@ -53,6 +61,14 @@ Dois pontos de leitura:
 
 O mapa interativo está em [`resultados/mapa_ilhas_calor_kmedoids.html`](resultados/mapa_ilhas_calor_kmedoids.html) (baixe e abra no navegador).
 
+Os quatro grupos no mapa do município (grupo 1: Laranjeiras; grupo 2: Irajá; grupo 3: Madureira; grupo 4: Costa Barros):
+
+![Mapas dos quatro grupos de vulnerabilidade do K-Medoids no Rio de Janeiro](imagens/mapa_grupos_k4.png)
+
+Contribuição de cada atributo para separar os grupos (η²), com a temperatura de superfície só como referência externa:
+
+![η² por atributo e por grupo](imagens/eta_quadrado_atributos.png)
+
 ## Sprint 3: comparação de técnicas de agrupamento
 
 A Sprint 3 testou se o resultado do K-Medoids se sustenta diante de outras técnicas e de outras seleções de variáveis.
@@ -74,6 +90,7 @@ ilhas-de-calor-rio/
 ├── pipeline/               # Sprint 2: 6 etapas em Python + base de entrada (dados/)
 ├── notebooks/              # Sprint 2: versões em notebook das 6 etapas
 ├── resultados/             # Sprint 2: tabelas finais, mapa interativo e figuras dos clusters
+├── imagens/                # slides das Sprints 1 e 2 usados neste README
 ├── sprint3/
 │   ├── codigo/             # preparação dos datasets, K-Medoids e comparação de modelos
 │   ├── dados/              # subsets A (η²) e B (Spearman), folds por bairro
