@@ -1,0 +1,167 @@
+cod_bairro,bairro,cod_ra,regiao_administrativa,lst_media
+070,Abolição,13,Meier,44.2
+111,Acari,25,Pavuna,43.28
+034,Alto da Boa Vista,8,Tijuca,29.19
+107,Anchieta,22,Anchieta,43.38
+037,Andaraí,9,Vila Isabel,40.38
+116,Anil,16,Jacarepagua,40.13
+166,Argentino,11,Penha,44.18
+097,Bancários,20,Ilha Do Governador,40.35
+141,Bangu,17,Bangu,37.42
+165,Barra Olímpica,16,Jacarepagua,38.78
+128,Barra da Tijuca,24,Barra Da Tijuca,35.54
+152,Barra de Guaratiba,26,Guaratiba,30.59
+112,Barros Filho,25,Pavuna,43.61
+012,Benfica,7,Sao Cristovao,42.95
+089,Bento Ribeiro,15,Madureira,45.03
+040,Bonsucesso,10,Ramos,43.62
+020,Botafogo,4,Botafogo,38.16
+045,Brás de Pina,11,Penha,42.94
+065,Cachambi,13,Meier,45.82
+093,Cacuia,20,Ilha Do Governador,36.31
+004,Caju,1,Portuaria,41.68
+129,Camorim,24,Barra Da Tijuca,30.23
+078,Campinho,15,Madureira,41.85
+144,Campo Grande,18,Campo Grande,37.12
+136,Campo dos Afonsos,33,Realengo,41.01
+082,Cascadura,15,Madureira,40.82
+018,Catete,4,Botafogo,40.36
+006,Catumbi,3,Rio Comprido,40.69
+080,Cavalcanti,15,Madureira,39.8
+005,Centro,2,Centro,41.39
+008,Cidade Nova,3,Rio Comprido,44.36
+105,Cidade Universitária,20,Ilha Do Governador,37.9
+118,Cidade de Deus,34,Cidade De Deus,42.92
+096,Cocotá,20,Ilha Do Governador,41.36
+110,Coelho Neto,25,Pavuna,44.5
+077,Colégio,14,Iraja,44.28
+156,Complexo do Alemão,29,Complexo Do Alemão,40.37
+024,Copacabana,5,Copacabana,37.68
+046,Cordovil,31,Vigario Geral,42.66
+019,Cosme Velho,4,Botafogo,35.39
+147,Cosmos,18,Campo Grande,41.1
+113,Costa Barros,25,Pavuna,43.01
+119,Curicica,16,Jacarepagua,41.1
+053,Del Castilho,12,Inhauma,45.55
+134,Deodoro,33,Realengo,38.76
+068,Encantado,13,Meier,43.27
+081,Engenheiro Leal,15,Madureira,38.82
+061,Engenho Novo,13,Meier,41.49
+055,Engenho da Rainha,12,Inhauma,40.31
+066,Engenho de Dentro,13,Meier,41.85
+009,Estácio,3,Rio Comprido,40.95
+015,Flamengo,4,Botafogo,37.85
+098,Freguesia (Ilha),20,Ilha Do Governador,35.79
+120,Freguesia (Jacarepaguá),16,Jacarepagua,37.2
+104,Galeão,20,Ilha Do Governador,39.98
+002,Gamboa,1,Portuaria,42.05
+117,Gardênia Azul,16,Jacarepagua,44.45
+160,Gericinó,17,Bangu,36.62
+016,Glória,4,Botafogo,39.54
+038,Grajaú,9,Vila Isabel,33.91
+133,Grumari,24,Barra Da Tijuca,29.79
+106,Guadalupe,22,Anchieta,44.01
+151,Guaratiba,26,Guaratiba,34.85
+029,Gávea,6,Lagoa,34.21
+050,Higienópolis,12,Inhauma,44.73
+087,Honório Gurgel,15,Madureira,45.0
+021,Humaitá,4,Botafogo,36.61
+164,Ilha de Guaratiba,26,Guaratiba,35.44
+010,Imperial de São Cristóvão,7,Sao Cristovao,42.44
+054,Inhaúma,12,Inhauma,44.03
+146,Inhoaíba,18,Campo Grande,41.48
+025,Ipanema,6,Lagoa,34.24
+076,Irajá,14,Iraja,43.97
+127,Itanhangá,24,Barra Da Tijuca,32.54
+163,Jabour,17,Bangu,44.8
+115,Jacarepaguá,16,Jacarepagua,32.29
+155,Jacarezinho,28,Jacarezinho,43.1
+051,Jacaré,13,Meier,44.84
+049,Jardim América,31,Vigario Geral,44.04
+028,Jardim Botânico,6,Lagoa,35.56
+100,Jardim Carioca,20,Ilha Do Governador,41.94
+099,Jardim Guanabara,20,Ilha Do Governador,41.25
+137,Jardim Sulacap,33,Realengo,36.18
+126,Joá,24,Barra Da Tijuca,32.83
+027,Lagoa,6,Lagoa,33.85
+161,Lapa,2,Centro,41.65
+017,Laranjeiras,4,Botafogo,37.47
+026,Leblon,6,Lagoa,36.18
+023,Leme,5,Copacabana,34.37
+062,Lins de Vasconcelos,13,Meier,38.46
+083,Madureira,15,Madureira,42.34
+138,Magalhães Bastos,33,Realengo,44.45
+011,Mangueira,7,Sao Cristovao,39.67
+039,Manguinhos,10,Ramos,41.07
+035,Maracanã,9,Vila Isabel,42.73
+090,Marechal Hermes,15,Madureira,44.94
+052,Maria da Graça,12,Inhauma,44.68
+157,Maré,30,Complexo Da Mare,42.25
+102,Moneró,20,Ilha Do Governador,41.37
+063,Méier,13,Meier,43.32
+042,Olaria,10,Ramos,42.34
+088,Osvaldo Cruz,15,Madureira,44.78
+148,Paciência,19,Santa Cruz,38.94
+140,Padre Miguel,17,Bangu,44.48
+013,Paquetá,21,Paqueta,33.12
+047,Parada de Lucas,31,Vigario Geral,41.05
+108,Parque Anchieta,22,Anchieta,39.21
+159,Parque Colúmbia,25,Pavuna,43.9
+114,Pavuna,25,Pavuna,44.21
+121,Pechincha,16,Jacarepagua,40.59
+153,Pedra de Guaratiba,26,Guaratiba,38.3
+043,Penha,11,Penha,41.85
+044,Penha Circular,11,Penha,42.96
+069,Piedade,13,Meier,40.14
+071,Pilares,13,Meier,43.63
+094,Pitangueiras,20,Ilha Do Governador,39.79
+103,Portuguesa,20,Ilha Do Governador,42.09
+095,Praia da Bandeira,20,Ilha Do Governador,41.07
+124,Praça Seca,16,Jacarepagua,38.25
+032,Praça da Bandeira,8,Tijuca,43.98
+079,Quintino Bocaiúva,15,Madureira,37.85
+041,Ramos,10,Ramos,43.84
+139,Realengo,33,Realengo,38.67
+132,Recreio dos Bandeirantes,24,Barra Da Tijuca,34.66
+059,Riachuelo,13,Meier,41.62
+091,Ribeira,20,Ilha Do Governador,37.25
+109,Ricardo de Albuquerque,22,Anchieta,43.68
+007,Rio Comprido,3,Rio Comprido,36.46
+058,Rocha,13,Meier,42.72
+086,Rocha Miranda,15,Madureira,44.37
+154,Rocinha,27,Rocinha,36.37
+060,Sampaio,13,Meier,42.04
+149,Santa Cruz,19,Santa Cruz,36.82
+014,Santa Teresa,23,Santa Tereza,34.4
+003,Santo Cristo,1,Portuaria,43.47
+143,Santíssimo,18,Campo Grande,39.04
+001,Saúde,1,Portuaria,42.85
+142,Senador Camará,17,Bangu,35.65
+145,Senador Vasconcelos,18,Campo Grande,37.04
+150,Sepetiba,19,Santa Cruz,39.18
+031,São Conrado,6,Lagoa,32.48
+057,São Francisco Xavier,13,Meier,41.91
+123,Tanque,16,Jacarepagua,37.81
+122,Taquara,16,Jacarepagua,40.28
+101,Tauá,20,Ilha Do Governador,41.77
+033,Tijuca,8,Tijuca,36.61
+064,Todos os Santos,13,Meier,43.63
+056,Tomás Coelho,12,Inhauma,40.3
+085,Turiaçú,15,Madureira,43.04
+022,Urca,4,Botafogo,33.42
+131,Vargem Grande,24,Barra Da Tijuca,30.99
+130,Vargem Pequena,24,Barra Da Tijuca,33.62
+158,Vasco da Gama,7,Sao Cristovao,41.92
+084,Vaz Lobo,15,Madureira,41.04
+073,Vicente de Carvalho,14,Iraja,41.62
+030,Vidigal,6,Lagoa,35.56
+048,Vigário Geral,31,Vigario Geral,42.42
+036,Vila Isabel,9,Vila Isabel,42.52
+162,Vila Kennedy,17,Bangu,43.4
+072,Vila Kosmos,14,Iraja,39.96
+135,Vila Militar,33,Realengo,38.75
+125,Vila Valqueire,16,Jacarepagua,40.46
+074,Vila da Penha,14,Iraja,43.45
+075,Vista Alegre,14,Iraja,43.6
+092,Zumbi,20,Ilha Do Governador,40.84
+067,Água Santa,13,Meier,35.47

@@ -53,19 +53,38 @@ Dois pontos de leitura:
 
 O mapa interativo está em [`resultados/mapa_ilhas_calor_kmedoids.html`](resultados/mapa_ilhas_calor_kmedoids.html) (baixe e abra no navegador).
 
+## Sprint 3: comparação de técnicas de agrupamento
+
+A Sprint 3 testou se o resultado do K-Medoids se sustenta diante de outras técnicas e de outras seleções de variáveis.
+
+- **Duas seleções de 5 variáveis** a partir das 7 candidatas: **A**, por relevância (η² ≥ 0,14), e **B**, por redundância (poda de Spearman, |ρ| ≥ 0,70). A temperatura de superfície continua fora do agrupamento, como variável de controle. Os critérios estão em [`relatorios/Selecao_Variaveis_e_Limiares_Sprint3.md`](relatorios/Selecao_Variaveis_e_Limiares_Sprint3.md).
+- **Três técnicas:** K-Medoids (distâncias Euclidiana e Manhattan), AGNES (ligações *average* e *complete*) e DBSCAN, com K de 3 a 5 quando aplicável.
+- **Métricas:** cotovelo, silhueta, Davies-Bouldin, estabilidade por *bootstrap* (ARI), percentual de ruído e tamanho do maior e do menor grupo. Configurações degeneradas são marcadas como inválidas no ranking.
+- **Ranking:** score composto por silhueta, Davies-Bouldin e ARI, em [`sprint3/resultados/comparacao_modelos/ranking_geral.csv`](sprint3/resultados/comparacao_modelos/ranking_geral.csv).
+
+Ponto de atenção na leitura do ranking: as melhores posições são de AGNES com ligação *average* em K = 3, mas nelas um único grupo concentra cerca de 99% dos bairros (coluna `maior_grupo_pct`). O K-Medoids produz grupos mais equilibrados (maior grupo entre 46% e 60% em K = 3) e ARI de bootstrap entre 0,80 e 0,87. Os detalhes estão em [`relatorios/Comparacao_Modelos_Clustering_Sprint3.docx`](relatorios/Comparacao_Modelos_Clustering_Sprint3.docx).
+
 ## Estrutura
 
 ```text
 ilhas-de-calor-rio/
-├── analise_exploratoria/   # figuras e tabelas da análise exploratória (histogramas, correlações, VIF, mapa de temperatura)
-├── pipeline/               # 6 etapas em Python + base de entrada (dados/)
-├── notebooks/              # versões em notebook das 6 etapas
-├── resultados/             # tabelas finais, mapa interativo e figuras dos clusters
-├── relatorios/             # relatório da Sprint 2
+├── sprint1_tratamento/     # notebooks de tratamento (calor, socioeconômico, clima e chuva)
+├── dados_tratados/         # bases tratadas por trilha e dataset final unificado
+├── analise_exploratoria/   # figuras e tabelas da análise exploratória
+├── pipeline/               # Sprint 2: 6 etapas em Python + base de entrada (dados/)
+├── notebooks/              # Sprint 2: versões em notebook das 6 etapas
+├── resultados/             # Sprint 2: tabelas finais, mapa interativo e figuras dos clusters
+├── sprint3/
+│   ├── codigo/             # preparação dos datasets, K-Medoids e comparação de modelos
+│   ├── dados/              # subsets A (η²) e B (Spearman), folds por bairro
+│   └── resultados/         # métricas, figuras e explicações por técnica + ranking
+├── relatorios/             # relatório da Sprint 2, documentos da Sprint 3, apresentação parcial
 └── README.md
 ```
 
-## Como rodar
+Os dados brutos (setores censitários do IBGE, malhas e imagens de satélite) ficam de fora por tamanho. As bases em `dados_tratados/` são a saída do tratamento.
+
+## Como rodar a Sprint 2
 
 ```bash
 pip install pandas numpy

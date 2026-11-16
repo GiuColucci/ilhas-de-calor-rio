@@ -1,0 +1,7 @@
+id,tecnica,selecao,serie,k,rotulo,config,cotovelo,sil,db,ari_mean,ari_std
+7,AGNES,B,AGNES B average,3.0000,AGN B ave k3,"Sel B, linkage=average, K=3",19.1770,0.6115,0.2436,0.8063,0.2665
+8,AGNES,B,AGNES B average,4.0000,AGN B ave k4,"Sel B, linkage=average, K=4",17.7001,0.5546,0.4217,0.6844,0.3854
+9,AGNES,B,AGNES B average,5.0000,AGN B ave k5,"Sel B, linkage=average, K=5",10.7377,0.4825,0.4628,0.9091,0.1191
+10,AGNES,B,AGNES B complete,3.0000,AGN B com k3,"Sel B, linkage=complete, K=3",13.4538,0.4923,0.5750,0.5928,0.3893
+11,AGNES,B,AGNES B complete,4.0000,AGN B com k4,"Sel B, linkage=complete, K=4",12.2179,0.4689,0.4488,0.7123,0.3039
+12,AGNES,B,AGNES B complete,5.0000,AGN B com k5,"Sel B, linkage=complete, K=5",10.7377,0.4825,0.4628,0.5427,0.3124

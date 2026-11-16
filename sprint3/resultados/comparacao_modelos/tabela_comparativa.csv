@@ -1,0 +1,33 @@
+id,tecnica,selecao,serie,k,rotulo,config,cotovelo,sil,db,ari_mean,ari_std,n_grupos,pct_ruido,maior_grupo_pct,menor_grupo_n,valido,motivo_exclusao,posicao,score
+7,AGNES,B,AGNES B average,3.0000,AGN B ave k3,"Sel B, linkage=average, K=3",19.1770,0.6115,0.2436,0.8063,0.2665,3,0.0000,98.7654,1,True,,1.0000,0.9028
+9,AGNES,B,AGNES B average,5.0000,AGN B ave k5,"Sel B, linkage=average, K=5",10.7377,0.4825,0.4628,0.9091,0.1191,5,0.0000,85.8025,1,True,,2.0000,0.8611
+1,AGNES,A,AGNES A average,3.0000,AGN A ave k3,"Sel A, linkage=average, K=3",24.6536,0.5141,0.3109,0.6866,0.4034,3,0.0000,98.7654,1,True,,3.0000,0.7917
+8,AGNES,B,AGNES B average,4.0000,AGN B ave k4,"Sel B, linkage=average, K=4",17.7001,0.5546,0.4217,0.6844,0.3854,4,0.0000,97.5309,1,True,,4.0000,0.7639
+11,AGNES,B,AGNES B complete,4.0000,AGN B com k4,"Sel B, linkage=complete, K=4",12.2179,0.4689,0.4488,0.7123,0.3039,4,0.0000,87.0370,1,True,,5.0000,0.7083
+2,K-Medoids,A,K-Medoids A Euclidiana,3.0000,KM A k3 Euc,"Sel A, K=3, Euclidiana",11.0547,0.3779,0.9353,0.8681,0.1407,3,0.0000,55.5556,28,True,,6.0000,0.6528
+1,K-Medoids,A,K-Medoids A Manhattan,3.0000,KM A k3 Man,"Sel A, K=3, Manhattan",11.0249,0.4029,0.9095,0.7996,0.1214,3,0.0000,60.4938,21,True,,7.0000,0.5972
+12,AGNES,B,AGNES B complete,5.0000,AGN B com k5,"Sel B, linkage=complete, K=5",10.7377,0.4825,0.4628,0.5427,0.3124,5,0.0000,85.8025,1,True,,8.0000,0.5833
+10,AGNES,B,AGNES B complete,3.0000,AGN B com k3,"Sel B, linkage=complete, K=3",13.4538,0.4923,0.5750,0.5928,0.3893,3,0.0000,87.0370,1,True,,9.0000,0.5833
+2,AGNES,A,AGNES A average,4.0000,AGN A ave k4,"Sel A, linkage=average, K=4",21.6999,0.4099,0.4038,0.3280,0.2788,4,0.0000,96.2963,1,True,,10.0000,0.5556
+7,K-Medoids,B,K-Medoids B Manhattan,3.0000,KM B k3 Man,"Sel B, K=3, Manhattan",10.0925,0.3604,0.9568,0.8272,0.2215,3,0.0000,49.3827,17,True,,11.0000,0.5417
+3,AGNES,A,AGNES A average,5.0000,AGN A ave k5,"Sel A, linkage=average, K=5",13.8894,0.3667,0.4950,0.6467,0.2241,5,0.0000,84.5679,1,True,,12.0000,0.5278
+8,K-Medoids,B,K-Medoids B Euclidiana,3.0000,KM B k3 Euc,"Sel B, K=3, Euclidiana",9.9681,0.3664,0.9691,0.8193,0.2242,3,0.0000,46.2963,20,True,,13.0000,0.5139
+10,K-Medoids,B,K-Medoids B Euclidiana,4.0000,KM B k4 Euc,"Sel B, K=4, Euclidiana",8.8979,0.2792,1.2026,0.8710,0.1837,4,0.0000,38.2716,20,True,,14.0000,0.4306
+4,AGNES,A,AGNES A complete,3.0000,AGN A com k3,"Sel A, linkage=complete, K=3",15.6545,0.3709,0.7290,0.5099,0.2962,3,0.0000,71.6049,1,True,,15.0000,0.4167
+5,AGNES,A,AGNES A complete,4.0000,AGN A com k4,"Sel A, linkage=complete, K=4",14.5639,0.3704,0.5900,0.4722,0.2622,4,0.0000,71.6049,1,True,,16.0000,0.4167
+6,AGNES,A,AGNES A complete,5.0000,AGN A com k5,"Sel A, linkage=complete, K=5",9.3850,0.3547,0.6595,0.6061,0.1901,5,0.0000,53.0864,1,True,,17.0000,0.4028
+12,K-Medoids,B,K-Medoids B Euclidiana,5.0000,KM B k5 Euc,"Sel B, K=5, Euclidiana",8.0070,0.2721,1.1883,0.8273,0.1225,5,0.0000,26.5432,13,True,,18.0000,0.4028
+4,K-Medoids,A,K-Medoids A Euclidiana,4.0000,KM A k4 Euc,"Sel A, K=4, Euclidiana",9.1872,0.3004,0.9062,0.6188,0.2459,4,0.0000,54.9383,20,True,,19.0000,0.3750
+5,K-Medoids,A,K-Medoids A Manhattan,5.0000,KM A k5 Man,"Sel A, K=5, Manhattan",7.6783,0.2747,1.1758,0.7418,0.1930,5,0.0000,37.6543,19,True,,20.0000,0.3333
+11,K-Medoids,B,K-Medoids B Manhattan,5.0000,KM B k5 Man,"Sel B, K=5, Manhattan",8.0696,0.2651,1.1937,0.8258,0.1269,5,0.0000,25.3086,13,True,,21.0000,0.3194
+6,K-Medoids,A,K-Medoids A Euclidiana,5.0000,KM A k5 Euc,"Sel A, K=5, Euclidiana",7.4839,0.2684,1.1029,0.7787,0.1708,5,0.0000,31.4815,19,True,,22.0000,0.3194
+3,K-Medoids,A,K-Medoids A Manhattan,4.0000,KM A k4 Man,"Sel A, K=4, Manhattan",8.6351,0.3049,1.0119,0.6080,0.1909,4,0.0000,43.2099,19,True,,23.0000,0.3056
+9,K-Medoids,B,K-Medoids B Manhattan,4.0000,KM B k4 Man,"Sel B, K=4, Manhattan",9.0350,0.2703,1.2196,0.6622,0.2571,4,0.0000,38.8889,17,True,,24.0000,0.1944
+1,DBSCAN,A,DBSCAN A,,DBS A e0.25 m3,"Sel A, eps=0.25, minPts=3",23.8314,,,0.9400,0.2387,1,3.7037,96.2963,156,False,menos de 2 grupos,,
+2,DBSCAN,A,DBSCAN A,,DBS A e0.25 m5,"Sel A, eps=0.25, minPts=5",22.1612,,,0.9700,0.1714,1,4.9383,95.0617,154,False,menos de 2 grupos,,
+3,DBSCAN,A,DBSCAN A,,DBS A e0.28 m3,"Sel A, eps=0.28, minPts=3",24.5351,,,0.9800,0.1407,1,1.8519,98.1481,159,False,menos de 2 grupos,,
+4,DBSCAN,A,DBSCAN A,,DBS A e0.28 m5,"Sel A, eps=0.28, minPts=5",24.5351,,,0.9800,0.1407,1,1.8519,98.1481,159,False,menos de 2 grupos,,
+5,DBSCAN,B,DBSCAN B,,DBS B e0.25 m3,"Sel B, eps=0.25, minPts=3",17.0268,,,1.0000,0.0000,1,3.7037,96.2963,156,False,menos de 2 grupos,,
+6,DBSCAN,B,DBSCAN B,,DBS B e0.25 m5,"Sel B, eps=0.25, minPts=5",17.0268,,,0.9900,0.1000,1,3.7037,96.2963,156,False,menos de 2 grupos,,
+7,DBSCAN,B,DBSCAN B,,DBS B e0.28 m3,"Sel B, eps=0.28, minPts=3",17.0268,,,1.0000,0.0000,1,3.7037,96.2963,156,False,menos de 2 grupos,,
+8,DBSCAN,B,DBSCAN B,,DBS B e0.28 m5,"Sel B, eps=0.28, minPts=5",17.0268,,,1.0000,0.0000,1,3.7037,96.2963,156,False,menos de 2 grupos,,

@@ -1,0 +1,5 @@
+id,tecnica,selecao,serie,k,rotulo,config,cotovelo,sil,db,ari_mean,ari_std
+1,DBSCAN,A,DBSCAN A,,DBS A e0.25 m3,"Sel A, eps=0.25, minPts=3",23.8314,,,0.9400,0.2387
+2,DBSCAN,A,DBSCAN A,,DBS A e0.25 m5,"Sel A, eps=0.25, minPts=5",22.1612,,,0.9700,0.1714
+3,DBSCAN,A,DBSCAN A,,DBS A e0.28 m3,"Sel A, eps=0.28, minPts=3",24.5351,,,0.9800,0.1407
+4,DBSCAN,A,DBSCAN A,,DBS A e0.28 m5,"Sel A, eps=0.28, minPts=5",24.5351,,,0.9800,0.1407

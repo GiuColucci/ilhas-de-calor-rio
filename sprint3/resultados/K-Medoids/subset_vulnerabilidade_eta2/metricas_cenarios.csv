@@ -1,0 +1,7 @@
+id,tecnica,selecao,serie,k,rotulo,config,cotovelo,sil,db,ari_mean,ari_std
+1,K-Medoids,A,K-Medoids A Manhattan,3.0000,KM A k3 Man,"Sel A, K=3, Manhattan",11.0249,0.4029,0.9095,0.7996,0.1214
+2,K-Medoids,A,K-Medoids A Euclidiana,3.0000,KM A k3 Euc,"Sel A, K=3, Euclidiana",11.0547,0.3779,0.9353,0.8681,0.1407
+3,K-Medoids,A,K-Medoids A Manhattan,4.0000,KM A k4 Man,"Sel A, K=4, Manhattan",8.6351,0.3049,1.0119,0.6080,0.1909
+4,K-Medoids,A,K-Medoids A Euclidiana,4.0000,KM A k4 Euc,"Sel A, K=4, Euclidiana",9.1872,0.3004,0.9062,0.6188,0.2459
+5,K-Medoids,A,K-Medoids A Manhattan,5.0000,KM A k5 Man,"Sel A, K=5, Manhattan",7.6783,0.2747,1.1758,0.7418,0.1930
+6,K-Medoids,A,K-Medoids A Euclidiana,5.0000,KM A k5 Euc,"Sel A, K=5, Euclidiana",7.4839,0.2684,1.1029,0.7787,0.1708
